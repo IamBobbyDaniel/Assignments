@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuri task (register)</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="left_side">
+            <img src="VR.png" alt="image of a man using VR">
+        </div>
+        <div class="right_side">
+            <h1 class="register_title">Register</h1>
+            <form action="">
+                <!-- First Name -->
+                <div class="form_group">
+                    <label for="fname" class="tag">First Name</label><br>
+                    <input type="text" placeholder="First name" class="itext" id="fname" required>
+                </div>
+                <!-- Last Name -->
+                <div class="form_group" >
+                    <label for="lname" class="tag">Last Name</label><br>
+                    <input type="text" placeholder="Last name" class="itext" id="lname" required>
+                </div>
+                <!-- Phone Number -->
+                <div class="form_group">
+                    <label for="number" class="tag">Phone number</label><br>
+                    <input type="number" placeholder="Phone number" name="number" id="number" class="itext" required>
+                </div>
+                <!-- Email -->
+                <div class="form_group">
+                    <label for="Email" class="tag">Email</label><br>
+                    <input type="email" placeholder="Enter email" class="itext" id="email" required>
+                </div>
+                <!-- Gender -->
+                 <div class="form_group">
+                    <label for="Gender">Male:</label>
+                    <input type="radio"  class="Male" required>
+                    <label for="Gender">Female:</label>
+                    <input type="radio"  class="Female" required>
+                </div>
+                <!-- Date of birth -->
+                <div class="form_group">
+                    <label for="date">Date of birth:</label>
+                    <input type="date" class="date" id="date" required>
+                </div>
+                <!-- Favourite color -->
+                <div class="form_group">
+                    <p>Favourite color</p>
+                    <label for="color">Red:</label>
+                    <input type="checkbox"  class="color" >
+                    <label for="color">Green:</label>
+                    <input type="checkbox"  class="color" >
+                    <label for="color">Blue:</label>
+                    <input type="checkbox"  class="color" >
+                    <label for="color">White:</label>
+                    <input type="checkbox"  class="color" >
+                    <label for="color">Black:</label>
+                    <input type="checkbox"  class="color" >
+                </div>
+                <!-- Register -->
+                 
+               <a href="success.html"><button type="submit"  class="register"  >Register now</button> </a> 
+                
+            </form>
+                  <!-- Or Login -->
+                <div class="or_login">
+                    
+                    <a href="login.html" class="orlogin">Login</a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
